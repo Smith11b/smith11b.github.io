@@ -1,0 +1,139 @@
+* {
+    margin: -2px;
+}
+
+
+body {
+    width: 469px;
+    height: 600px;
+    margin: auto;
+}
+
+header {
+    width: 469px;
+    box-shadow: 0px 2px 1px rgb(179, 176, 176);
+
+}
+
+#head {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    padding: 25px 15px 25px 15px;
+    text-align: center;
+}
+
+.head-img {
+    height: 25px;
+    widows: 25px;
+    padding: 25px 10px 10px 10px;
+    
+}
+
+
+
+.card {
+    margin-bottom: 12px;
+    background-color: white;
+
+}
+
+header h1{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.hero {
+    background: url("img/house-indoor.png") no-repeat;
+    background-size: 469px 400px;
+    width: 469px;
+    height: 400px;
+    margin-top: 8px;
+}
+
+.stats {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    width: 135px;
+    border-top: 1px solid rgb(184, 179, 179);
+    border-right: 1px solid rgb(184, 179, 179);
+    border-bottom: 1px solid rgb(184, 179, 179);
+    vertical-align: top;
+   
+}
+
+#stats-right1 {
+    border-right: 0px;
+}
+
+.stats h1 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.stats img {
+    height: 20px;
+    width: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.stats-top {
+    font-family: 'Montserrat', sans-serif;
+    width: 469px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+
+.price {
+    display: inline-block;
+    margin: 15px 150px 15px 20px;
+
+}
+
+.price h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.name {
+    display: inline-block;
+}
+
+.place {
+   margin: 10px 0 28px 20px;
+}
+
+.place img {
+    margin-right: 10px;
+}
+
+
+.new {
+    display: inline-block;
+    margin-top: 340px;
+    margin-left: 22px;
+    margin-right: 200px;
+}
+
+#new img {
+    border: 1px solid white;
+}
+.star{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.stats-bottom {
+    margin-bottom: 20px;
+}
+
+#hero2 {
+    background: url("img/house-outdoor.jpeg") no-repeat;
+}
