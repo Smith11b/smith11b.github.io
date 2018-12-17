@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+
 </head>
 <body>
     <div class = "wrapper">
@@ -16,11 +19,38 @@
         <div id = "head"><h1>NEW HOMES</h1></div>
         <img class = "head-img" src = "img/magnifying-glass.svg">
     </header>
+
     <div class = card>
-    <div class ="hero">
-        <div class = "new"><img src = "img/new-open.png"></div>
-        <div class = "star"><img src = "img/mark-as-favorite-star.png"></div>
-    </div>
+        <div class ="hero">
+            <div class = "new"><img src = "img/new-open.png"></div>
+            <div class = "star"><img src = "img/mark-as-favorite-star.png"></div>
+        </div>
+        <div class = "search">
+            <select id = "search-drop">
+                <option>SELL</option>
+                <option>BUY</option>
+            </select>
+            <i class="fas fa-chevron-down"></i>
+            <input id = "search-bar" type = "search" >
+            <img src = "img/magnifying-glass.png">
+            <div class = "filter">
+                <ul>
+                    <li>HOUSES <i class="fas fa-chevron-down custom-icon"></i></li>
+                    <li>MIN PRICE <i class="fas fa-chevron-down custom-icon"></i></li>
+                    <li>MIN BEDS <i class="fas fa-chevron-down custom-icon"></i></li>
+                    <li>MAX BEDS <i class="fas fa-chevron-down custom-icon"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id = "featured">
+            <h1>FEATURED HOMES</h1>
+            <img class ="featured-homes" src = "img/house-indoor-border.png">
+            <img class ="featured-homes" src = "img/modern-house-border.png">
+            <img class ="featured-homes" src = "img/house-indoor-border.png">
+        </div>
+        </div>
+    
 
     <div class = "stats-top">
         <div class = "price"><h1>$1,774,000</h1></div>
@@ -44,7 +74,7 @@
     </div>
     </div>
 
-    <div class = card>
+    <div id = "card-one" class = card>
     <div id = "hero2" class ="hero">
         <div class = "new"><img src = "img/new-open.png"></div>
         <div class = "star"><img src = "img/mark-as-favorite-star.png"></div>
@@ -59,18 +89,46 @@
     <div class = "stats-bottom">
         <div class = "stats">
             <img src = "img/bathtub.png">
-            <h1>4</h1>
+            <h1>3</h1>
         </div>
         <div class = "stats">
             <img src = "img/hotel.png">
-            <h1>7</h1>
+            <h1>5</h1>
         </div>
         <div id = "stats-right1" class = "stats">
             <img src = "img/car.png">
             <h1>2</h1>
         </div>
     </div>
-    </div>
+</div>
+
+    <div id = "card-two"class = card>
+            <div id = "hero3">
+                <div class = "new"><img src = "img/new-open.png"></div>
+                <div class = "star"><img src = "img/mark-as-favorite-star.png"></div>
+            </div>
+        
+            <div class = "stats-top">
+                <div class = "price"><h1>$1,774,000</h1></div>
+                <div class = "name">Mark Smith</div>
+                <div class = "place"><img src = "img/facebook-placeholder-for-locate-places-on-maps.png">2550 27th Ave Des Moines IA , 50265</div>
+            </div>
+        
+            <div class = "stats-bottom">
+                <div class = "stats">
+                    <img src = "img/bathtub.png">
+                    <h1>5</h1>
+                </div>
+                <div class = "stats">
+                    <img src = "img/hotel.png">
+                    <h1>7</h1>
+                </div>
+                <div id = "stats-right1" class = "stats">
+                    <img src = "img/car.png">
+                    <h1>3</h1>
+                </div>
+            </div>
+            </div>
 </div>
 
    
